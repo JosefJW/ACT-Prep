@@ -1,5 +1,6 @@
 import tkinter as tk
 import sqlite3
+import time
 
 connection = sqlite3.connect('questions.db')
 cursor = connection.cursor()
